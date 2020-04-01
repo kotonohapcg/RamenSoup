@@ -3,4 +3,11 @@
     <string name="btMenu">メニュー</string>
     <string name="btAdd">追加</string>
     <string name="btDelete">削除</string>
+    //Textview
+    <string name="tvSoupname">スープの種類</string>
+    //checkbox
+    <string name="cbStatic1">しょうゆ</string>
+    <string name="cbStatic2">しお</string>
+    <string name="cbStatic3">にぼし１</string>
+    <string name="cbStatic4">にぼし２</string>
 </resources>
