@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="414dp"
         android:layout_height="95dp"
         android:layout_marginStart="8dp"
@@ -38,6 +39,8 @@
             android:layout_height="94dp"
             android:layout_weight="1"
             android:text="追加" />
+
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
