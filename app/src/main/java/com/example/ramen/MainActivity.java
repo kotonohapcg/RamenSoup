@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //ボタンにリスナを設定させる
+        btMenu.setOnClickListener(this);
 
+    }
 
+    @Override
+    public void onClick(View v) {
+        if(v.getId() == R.id.btMenu) {
+            DetailDialogFragment ddFragment = new DetailDialogFragment();
+            ddFragment.show(getSupportFragmentManager(), "DetailDialogFragment");
+        }
     }
 }
