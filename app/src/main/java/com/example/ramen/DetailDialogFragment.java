@@ -27,7 +27,7 @@ public class DetailDialogFragment extends DialogFragment {
     //ダイアログのボタンをタップした時の処理
     private class DialogButtonClickListener implements DialogInterface.OnClickListener {
         @Override
-        public void OnClick(DialogInterface dialog, int which) {
+        public void onClick(DialogInterface dialog, int which) {
             String msg = "";
             //タップされたものによって分岐
             switch(which) {
